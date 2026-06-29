@@ -8,3 +8,5 @@ Status legend: ⬜ Not started · 🟨 In progress · ✅ Done
 |---------|--------|-------|-------|
 | [Multi-Tenant WhatsApp AI Agent](whatsapp-ai-agent/) | ⬜ | FastAPI · LangGraph · PostgreSQL | WhatsApp Business API chatbot with LLM |
 | [Clinical Report Extraction](clinical-report-extraction/) | ⬜ | LLMs · structured output · clinical NLP | Extract structured data from pathology reports & notes (biotech) |
+
+> _Learning LangChain graduated to an active build → [`../learning-langchain/`](../learning-langchain/)._
