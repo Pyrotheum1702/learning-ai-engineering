@@ -13,6 +13,10 @@ env/
 !.env.example
 *.key
 
+# Personal source docs (CV/resume) — keep out of git
+*-CV.pdf
+**/knowledge/source/
+
 # OS / editor
 .DS_Store
 .idea/
