@@ -25,16 +25,16 @@ Progress legend: ⬜ Not started · 🟨 In progress · ✅ Done
 - ⬜ Transformers & attention
 
 ### 3. Large Language Models
-- ⬜ Prompt engineering
-- ⬜ Tokenization & context windows
-- ⬜ Fine-tuning vs. prompting vs. RAG
-- ⬜ Working with the Claude / OpenAI APIs
+- 🟨 Prompt engineering
+- 🟨 Tokenization & context windows
+- 🟨 Fine-tuning vs. prompting vs. RAG
+- 🟨 Working with LLM APIs (Fireworks, Claude / OpenAI)
 
 ### 4. Building AI Applications
-- ⬜ Retrieval-Augmented Generation (RAG)
-- ⬜ Vector databases & embeddings
-- ⬜ Agents & tool use
-- ⬜ Structured output & function calling
+- 🟨 Retrieval-Augmented Generation (RAG)
+- 🟨 Vector databases & embeddings
+- 🟨 Agents & tool use
+- 🟨 Structured output & function calling
 
 ### 5. Evaluation & Reliability
 - ⬜ LLM evals & test harnesses
@@ -44,10 +44,20 @@ Progress legend: ⬜ Not started · 🟨 In progress · ✅ Done
 ### 6. Productionizing
 - ⬜ Serving & latency/cost optimization
 - ⬜ Caching strategies
-- ⬜ Deployment (Docker, cloud)
+- 🟨 Deployment (Docker, cloud)
 - ⬜ MLOps / LLMOps basics
 
 ---
+
+## 📝 Notes
+
+Concept notes live in [`topics/`](topics/) — short "explain it in my own words" write-ups, following the [roadmap.sh AI Engineer](https://roadmap.sh/ai-engineer) path. Current clusters:
+
+- **Core LLM concepts** — tokens, context, how LLMs work, inference, training, embeddings
+- **Sampling parameters** — temperature, top-k, top-p, repetition penalties
+- **RAG** — chunking, embeddings, vector stores, retrieval, generation
+- **Vector databases** — purpose & functionality, Chroma / Pinecone / Weaviate / FAISS / Qdrant / …, indexing, similarity search
+- **Agents** — agent SDKs (Claude, OpenAI, Google), manual implementation
 
 ## 📚 Log
 
@@ -55,7 +65,8 @@ A running journal lives in [`log/`](log/). Each entry: what I studied, what I bu
 
 | Date | Topic | Notes |
 |------|-------|-------|
-| _–_ | _Kickoff_ | Repo created |
+| 2026-06 | LangChain RAG chatbot | Built a full agentic-RAG web app (FastAPI + React + Fireworks) — see [`projects/learning-langchain/`](projects/learning-langchain/) |
+| _–_ | Kickoff | Repo created |
 
 ## 🛠️ Projects
 
@@ -63,7 +74,8 @@ Hands-on builds live in [`projects/`](projects/). The best way to learn is to sh
 
 | Project | Status | Description |
 |---------|--------|-------------|
-| _–_ | ⬜ | _Coming soon_ |
+| [learning-langchain](projects/learning-langchain/) | 🟨 | RAG chatbot web app (FastAPI · React · LangChain · Fireworks · Chroma) — agentic RAG with streaming, tool use, security hardening, and Docker. Being built into a public "chat with me" portfolio bot. |
+| [Backlog](projects/todo/) | ⬜ | Candidate gigs & builds — multi-tenant WhatsApp AI agent, clinical report extraction. |
 
 ## 📖 Resources
 
