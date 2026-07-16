@@ -15,7 +15,7 @@ Build the practical skills to design, build, and deploy production AI systems �
 Progress legend: ⬜ Not started · 🟨 In progress · ✅ Done
 
 ### 1. Foundations
-- ⬜ Python for AI (typing, async, packaging)
+- 🟨 Python for AI (typing, async, packaging) — working through [20 build-it-yourself projects](projects/learning-python/)
 - ⬜ Math refresher (linear algebra, probability, gradients)
 - ⬜ Classic ML concepts (train/test, overfitting, metrics)
 
@@ -55,6 +55,7 @@ Concept notes live in [`topics/`](topics/) — short "explain it in my own words
 
 - **Core LLM concepts** — tokens, context, how LLMs work, inference, training, embeddings
 - **Sampling parameters** — temperature, top-k, top-p, repetition penalties
+- **Prompt engineering** — zero-/few-shot, chain-of-thought, ReAct, system prompting, input format, function calling, prompt caching, streaming, prompt vs. context engineering
 - **RAG** — chunking, embeddings, vector stores, retrieval, generation
 - **Vector databases** — purpose & functionality, Chroma / Pinecone / Weaviate / FAISS / Qdrant / …, indexing, similarity search
 - **Agents** — agent SDKs (Claude, OpenAI, Google), manual implementation
@@ -65,6 +66,8 @@ A running journal lives in [`log/`](log/). Each entry: what I studied, what I bu
 
 | Date | Topic | Notes |
 |------|-------|-------|
+| 2026-07 | Python fundamentals | Started [20 build-it-yourself projects](projects/learning-python/) — shipped #1 (number guessing) and #2 (unit converter); learned EAFP input handling and dict dispatch |
+| 2026-07 | Prompt engineering notes | Added a full cluster of concept notes — zero-/few-shot, CoT, ReAct, system prompting, function calling, prompt caching, streaming, prompt vs. context engineering |
 | 2026-06 | LangChain RAG chatbot | Built a full agentic-RAG web app (FastAPI + React + Fireworks) — see [`projects/learning-langchain/`](projects/learning-langchain/) |
 | _–_ | Kickoff | Repo created |
 
@@ -75,6 +78,7 @@ Hands-on builds live in [`projects/`](projects/). The best way to learn is to sh
 | Project | Status | Description |
 |---------|--------|-------------|
 | [learning-langchain](projects/learning-langchain/) | 🟨 | RAG chatbot web app (FastAPI · React · LangChain · Fireworks · Chroma) — agentic RAG with streaming, tool use, security hardening, and Docker. Being built into a public "chat with me" portfolio bot. |
+| [learning-python](projects/learning-python/) | 🟨 | 20 build-it-yourself Python projects, easy → hard (2/20 done). Fundamentals → data & persistence → real-world tooling → systems, async & packaging. |
 | [Backlog](projects/todo/) | ⬜ | Candidate gigs & builds — multi-tenant WhatsApp AI agent, clinical report extraction. |
 
 ## 📖 Resources
