@@ -25,7 +25,7 @@ Status legend: ⬜ Not started · 🟨 In progress · ✅ Done
 | 1 | Number guessing game | 🟢 | ✅ |
 | 2 | Temperature & unit converter | 🟢 | ✅ |
 | 3 | Command-line to-do list | 🟢 | ✅ |
-| 4 | Password generator | 🟢 | ⬜ |
+| 4 | Password generator | 🟢 | ✅ |
 | 5 | Word & character counter | 🟢 | ⬜ |
 | 6 | Contact book (JSON persistence) | 🟡 | ⬜ |
 | 7 | Rock–paper–scissors with score tracking | 🟡 | ⬜ |
