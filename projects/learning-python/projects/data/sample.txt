@@ -1,0 +1,11 @@
+The quick brown fox jumps over the lazy dog.
+The dog was not amused, and the fox ran away.
+
+Python makes reading a file easy. Reading a file is a common task,
+and counting words in a file is a classic beginner exercise.
+
+The, the, THE — case matters when you count words!
+Punctuation, like commas, periods, and dashes, can trip up a naive counter.
+
+A word is a word is a word... or is it?
+Count them all, count them well, and count them twice if you must.

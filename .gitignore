@@ -27,4 +27,3 @@ env/
 *.gguf
 *.pt
 *.ckpt
-data/

@@ -66,7 +66,7 @@ A running journal lives in [`log/`](log/). Each entry: what I studied, what I bu
 
 | Date | Topic | Notes |
 |------|-------|-------|
-| 2026-07 | Python fundamentals | Working through [20 build-it-yourself projects](projects/learning-python/) — shipped #1 (number guessing), #2 (unit converter), #3 (command-line to-do list with JSON persistence), and #4 (secure password generator with entropy readout); learned EAFP input handling, dict dispatch, `secrets`/`string` constants, and the `method` vs `method()` / immutable-string-return gotchas |
+| 2026-07 | Python fundamentals | Working through [20 build-it-yourself projects](projects/learning-python/) — shipped #1 (number guessing), #2 (unit converter), #3 (command-line to-do list with JSON persistence), #4 (secure password generator with entropy readout), and #5 (word & character counter with stop-word/case/punctuation handling) — **Tier 1 complete**; learned EAFP input handling, dict dispatch, `secrets`/`string` constants, `sys.argv` + `collections.Counter`, and the `method` vs `method()` / immutable-string-return gotchas |
 | 2026-07 | Prompt engineering notes | Added a full cluster of concept notes — zero-/few-shot, CoT, ReAct, system prompting, function calling, prompt caching, streaming, prompt vs. context engineering |
 | 2026-06 | LangChain RAG chatbot | Built a full agentic-RAG web app (FastAPI + React + Fireworks) — see [`projects/learning-langchain/`](projects/learning-langchain/) |
 | _–_ | Kickoff | Repo created |
@@ -78,7 +78,7 @@ Hands-on builds live in [`projects/`](projects/). The best way to learn is to sh
 | Project | Status | Description |
 |---------|--------|-------------|
 | [learning-langchain](projects/learning-langchain/) | 🟨 | RAG chatbot web app (FastAPI · React · LangChain · Fireworks · Chroma) — agentic RAG with streaming, tool use, security hardening, and Docker. Being built into a public "chat with me" portfolio bot. |
-| [learning-python](projects/learning-python/) | 🟨 | 20 build-it-yourself Python projects, easy → hard (4/20 done). Fundamentals → data & persistence → real-world tooling → systems, async & packaging. |
+| [learning-python](projects/learning-python/) | 🟨 | 20 build-it-yourself Python projects, easy → hard (5/20 done — Tier 1 complete). Fundamentals → data & persistence → real-world tooling → systems, async & packaging. |
 | [Backlog](projects/todo/) | ⬜ | Candidate gigs & builds — multi-tenant WhatsApp AI agent, clinical report extraction. |
 
 ## 📖 Resources
