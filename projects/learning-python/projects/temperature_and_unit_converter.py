@@ -1,4 +1,9 @@
-# Celsius↔Fahrenheit↔Kelvin, plus km↔miles
+# ### 2. Temperature & unit converter
+# A menu-driven converter: Celsius↔Fahrenheit↔Kelvin, plus km↔miles.
+# - **Requirements:** show a menu, take a choice + a value, print the result to 2
+#   decimals; loop until the user quits; handle invalid menu choices.
+# - **You'll learn:** functions with return values, `round()`, f-strings, dict-based dispatch.
+# - **Stretch:** add more unit categories via a data-driven table instead of if/elif.
 
 c = "Celsius"
 f = "Fahrenheit"

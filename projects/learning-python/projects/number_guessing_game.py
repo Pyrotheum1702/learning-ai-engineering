@@ -1,3 +1,10 @@
+# ### 1. Number guessing game
+# The program picks a random integer 1–100; the user guesses until correct.
+# - **Requirements:** tell the user "higher"/"lower" after each guess; count the
+#   number of attempts; reject non-numeric input without crashing.
+# - **You'll learn:** `random`, `while` loops, `int()` + exceptions, conditionals.
+# - **Stretch:** add difficulty levels (limited attempts); play-again loop.
+
 import random
 
 target_number = random.randint(0, 100)
