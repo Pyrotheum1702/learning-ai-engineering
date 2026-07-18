@@ -27,3 +27,7 @@ env/
 *.gguf
 *.pt
 *.ckpt
+data/
+# ...but keep learning-python's test fixtures / project data
+!projects/learning-python/projects/data/
+!projects/learning-python/projects/data/**
