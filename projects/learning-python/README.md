@@ -28,7 +28,7 @@ Status legend: ⬜ Not started · 🟨 In progress · ✅ Done
 | 4 | Password generator | 🟢 | ✅ |
 | 5 | Word & character counter | 🟢 | ✅ |
 | 6 | Contact book (JSON persistence) | 🟡 | ✅ |
-| 7 | Rock–paper–scissors with score tracking | 🟡 | ⬜ |
+| 7 | Rock–paper–scissors with score tracking | 🟡 | ✅ |
 | 8 | Expense tracker with CSV export | 🟡 | ⬜ |
 | 9 | Markdown → HTML converter | 🟡 | ⬜ |
 | 10 | Quiz app with a question bank | 🟡 | ⬜ |
