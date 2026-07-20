@@ -7,6 +7,13 @@ a little — that's where the learning is.
 > Rule: don't copy solutions. If stuck, read the Python docs for the specific
 > function you need, not a full walkthrough.
 
+> **All project code here is hand-written.** No AI-generated or copy-pasted
+> solutions — every line was typed by me. AI was used only as a tutor: to explain
+> concepts, point at bugs, and test the finished code.
+>
+> The documentation is the other way round: **these READMEs are AI-assisted** —
+> drafted with AI and reviewed by me. Code is mine; prose is collaborative.
+
 ## How to use this
 
 - Work top to bottom; each tier builds on skills from the last.
@@ -29,7 +36,7 @@ Status legend: ⬜ Not started · 🟨 In progress · ✅ Done
 | 5 | Word & character counter | 🟢 | ✅ |
 | 6 | Contact book (JSON persistence) | 🟡 | ✅ |
 | 7 | Rock–paper–scissors with score tracking | 🟡 | ✅ |
-| 8 | Expense tracker with CSV export | 🟡 | ⬜ |
+| 8 | Expense tracker with CSV export | 🟡 | ✅ |
 | 9 | Markdown → HTML converter | 🟡 | ⬜ |
 | 10 | Quiz app with a question bank | 🟡 | ⬜ |
 | 11 | Weather CLI (public API) | 🟠 | ⬜ |
