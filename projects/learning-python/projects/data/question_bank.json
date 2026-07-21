@@ -1,0 +1,92 @@
+[
+  {
+    "category": "geography",
+    "question": "What is the capital of France?",
+    "choices": ["Berlin", "Madrid", "Paris", "Rome"],
+    "answer": 2
+  },
+  {
+    "category": "geography",
+    "question": "Which is the largest ocean on Earth?",
+    "choices": ["Atlantic", "Indian", "Arctic", "Pacific"],
+    "answer": 3
+  },
+  {
+    "category": "geography",
+    "question": "On which continent is the Sahara Desert?",
+    "choices": ["Asia", "Africa", "Australia", "South America"],
+    "answer": 1
+  },
+  {
+    "category": "geography",
+    "question": "What is the longest river in the world?",
+    "choices": ["Amazon", "Yangtze", "Mississippi", "Nile"],
+    "answer": 3
+  },
+  {
+    "category": "science",
+    "question": "What is the chemical symbol for water?",
+    "choices": ["O2", "H2O", "CO2", "NaCl"],
+    "answer": 1
+  },
+  {
+    "category": "science",
+    "question": "How many planets are in our solar system?",
+    "choices": ["7", "8", "9", "10"],
+    "answer": 1
+  },
+  {
+    "category": "science",
+    "question": "What gas do plants absorb from the atmosphere?",
+    "choices": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+    "answer": 2
+  },
+  {
+    "category": "science",
+    "question": "What is the powerhouse of the cell?",
+    "choices": ["Nucleus", "Ribosome", "Mitochondria", "Membrane"],
+    "answer": 2
+  },
+  {
+    "category": "programming",
+    "question": "Which keyword defines a function in Python?",
+    "choices": ["func", "def", "function", "lambda"],
+    "answer": 1
+  },
+  {
+    "category": "programming",
+    "question": "What data type is the result of 3 / 2 in Python 3?",
+    "choices": ["int", "float", "str", "bool"],
+    "answer": 1
+  },
+  {
+    "category": "programming",
+    "question": "Which of these is an immutable type in Python?",
+    "choices": ["list", "dict", "set", "tuple"],
+    "answer": 3
+  },
+  {
+    "category": "programming",
+    "question": "What does the len() function return for an empty list?",
+    "choices": ["0", "None", "-1", "an error"],
+    "answer": 0
+  },
+  {
+    "category": "history",
+    "question": "In which year did World War II end?",
+    "choices": ["1918", "1939", "1945", "1963"],
+    "answer": 2
+  },
+  {
+    "category": "history",
+    "question": "Who was the first President of the United States?",
+    "choices": ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "John Adams"],
+    "answer": 1
+  },
+  {
+    "category": "history",
+    "question": "The Great Wall is located in which country?",
+    "choices": ["Japan", "India", "China", "Mongolia"],
+    "answer": 2
+  }
+]

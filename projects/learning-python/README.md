@@ -38,7 +38,7 @@ Status legend: ⬜ Not started · 🟨 In progress · ✅ Done
 | 7 | Rock–paper–scissors with score tracking | 🟡 | ✅ |
 | 8 | Expense tracker with CSV export | 🟡 | ✅ |
 | 9 | Markdown → HTML converter | 🟡 | ✅ |
-| 10 | Quiz app with a question bank | 🟡 | ⬜ |
+| 10 | Quiz app with a question bank | 🟡 | ✅ |
 | 11 | Weather CLI (public API) | 🟠 | ⬜ |
 | 12 | File organizer / deduplicator | 🟠 | ⬜ |
 | 13 | Web scraper → structured data | 🟠 | ⬜ |
