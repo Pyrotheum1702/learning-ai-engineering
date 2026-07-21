@@ -37,7 +37,7 @@ Status legend: ⬜ Not started · 🟨 In progress · ✅ Done
 | 6 | Contact book (JSON persistence) | 🟡 | ✅ |
 | 7 | Rock–paper–scissors with score tracking | 🟡 | ✅ |
 | 8 | Expense tracker with CSV export | 🟡 | ✅ |
-| 9 | Markdown → HTML converter | 🟡 | ⬜ |
+| 9 | Markdown → HTML converter | 🟡 | ✅ |
 | 10 | Quiz app with a question bank | 🟡 | ⬜ |
 | 11 | Weather CLI (public API) | 🟠 | ⬜ |
 | 12 | File organizer / deduplicator | 🟠 | ⬜ |

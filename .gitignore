@@ -31,5 +31,6 @@ data/
 # ...but keep learning-python's test fixtures / project data
 !projects/learning-python/projects/data/
 !projects/learning-python/projects/data/**
-# ...except generated CSV exports (recreated on demand by each project)
+# ...except generated exports (recreated on demand by each project)
 projects/learning-python/projects/data/*.csv
+projects/learning-python/projects/data/output.html
